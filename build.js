@@ -61,7 +61,6 @@ const cdnScriptsOptional = {
   '{{version}}/modules/pareto.js': 1,
 
   '{{version}}/modules/no-data-to-display.js': 1,
-  'mapdata/custom/world.js': 1
 };
 
 // The scripts here will appear as user prompts
@@ -102,7 +101,8 @@ const cdnLegacy = [
 ];
 
 const cdnMaps = [
-    'maps/{{version}}/modules/map.js'
+    'maps/{{version}}/modules/map.js',
+    'mapdata/custom/world.js'
 ];
 
 const cdnGantt = [
