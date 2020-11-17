@@ -52,17 +52,18 @@ const cdnScriptsOptional = {
   '{{version}}/modules/tilemap.js': 1,
   '{{version}}/modules/histogram-bellcurve.js': 1,
   '{{version}}/modules/bullet.js': 1,
-  '{{version}}/modules/organization.js': 1,
-  '{{version}}/modules/funnel3d.js': 1,
-  '{{version}}/modules/pyramid3d.js': 1,
-  '{{version}}/modules/dependency-wheel.js': 1,
-  '{{version}}/modules/item-series.js': 1,
-  '{{version}}/modules/timeline.js': 1,
-  '{{version}}/modules/pareto.js': 1,
-  '{{version}}/modules/coloraxis.js': 1,
-  '{{version}}/modules/venn.js': 1,
-  "{{version}}/modules/dumbbell.js": 1,
-  '{{version}}/modules/lollipop.js': 1
+  // '{{version}}/modules/organization.js': 1,
+  // '{{version}}/modules/funnel3d.js': 1,
+  // '{{version}}/modules/pyramid3d.js': 1,
+  // '{{version}}/modules/dependency-wheel.js': 1,
+  // '{{version}}/modules/item-series.js': 1,
+  // '{{version}}/modules/timeline.js': 1,
+  // '{{version}}/modules/pareto.js': 1,
+  // '{{version}}/modules/coloraxis.js': 1,
+  // '{{version}}/modules/venn.js': 1,
+  // "{{version}}/modules/dumbbell.js": 1,
+  // '{{version}}/modules/lollipop.js': 1,
+  '{{version}}/modules/no-data-to-display.js': 1,
 };
 
 // The scripts here will appear as user prompts
@@ -103,7 +104,8 @@ const cdnLegacy = [
 ];
 
 const cdnMaps = [
-    'maps/{{version}}/modules/map.js'
+    'maps/{{version}}/modules/map.js',
+    'mapdata/custom/world.js'
 ];
 
 const cdnGantt = [
